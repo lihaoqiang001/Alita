@@ -8,7 +8,7 @@
 
 
 ## 1. 桌面多了个文件夹
-![迁移的项目](../resources/迁移的项目.png "干嘛的我不知道")
+![迁移的项目](../mac/images/迁移的项目.png "干嘛的我不知道")
 #### 干嘛的不太清楚，反正暂时还没删除，对任何东西没影响，就保留了，希望像Windows一个月之后自动删除。
 
 ## 2. 重新安装CLT
@@ -25,7 +25,7 @@ xcode-select --install
 1. 由于完整的xcode太占用空间了，最重要的使鄙人并不作mac或ios的开发，所以完全没必要安装这个玩意啊！但是在mac的terminal下没有command line tools还是相当不方便的，这里就介绍一种，只安装command line tools的方法。
 2. 下载Command line tools安装包
 https://developer.apple.com/download/more/
-![CLT](../resources/CLT下载.png)
+![CLT](../mac/images/CLT下载.png)
 
 3. 按照提示安装即可
 4. 更改developer tools的路径（这一步主要是针对安装过xcode的用户，卸载xcode后没有清理干净的后果）
@@ -51,9 +51,9 @@ InstalledDir: /Library/Developer/CommandLineTools/usr/bin
 brew doctor
 ```
 - 发现：
-![brew doctor](../resources/brew检查.png)
+![brew doctor](../mac/images/brew检查.png)
 - [解决方法](https://docs.brew.sh/Troubleshooting)：
-![](../resources/brewdoctor.png)
+![解决方法](../mac/images/brewdoctor.png)
 运行两次：
 ```
 brew update
