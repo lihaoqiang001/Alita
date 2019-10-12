@@ -12,16 +12,16 @@
 #### 干嘛的不太清楚，反正暂时还没删除，对任何东西没影响，就保留了，希望像Windows一个月之后自动删除。
 
 ## 2. 重新安装CLT
-Xcode一般不安装（除macOS和iOS应用开发外），但里面的`Command Line Tools`这个工具是非常有用的。从`Mojave`升级到`Catalina`之后之前的`Command Line Tools`会失效，git也不能用了。不管之前有没有安装过，这里建议都安装，自带了git、gcc等工具。
+#### Xcode一般不安装（除macOS和iOS应用开发外），但里面的`Command Line Tools`这个工具是非常有用的。从`Mojave`升级到`Catalina`之后之前的`Command Line Tools`会失效，git也不能用了。不管之前有没有安装过，这里建议都安装，自带了git、gcc等工具。
 - 之前没安装：
 ```
 xcode-select --install
 ```
-- 之前已安装CLT没安装Xcode升级系统需要重新安装：
+- 之前已安装CLT，没安装Xcode升级系统需要重新安装：
 ```
 xcode-select --install
 ```
-- 之前已Xcode升级系统需要重新安装：
+- 之前已安装Xcode，升级系统需要重新安装：
 1. 由于完整的xcode太占用空间了，最重要的使鄙人并不作mac或ios的开发，所以完全没必要安装这个玩意啊！但是在mac的terminal下没有command line tools还是相当不方便的，这里就介绍一种，只安装command line tools的方法。
 2. 下载Command line tools安装包
 https://developer.apple.com/download/more/
@@ -54,7 +54,7 @@ brew doctor
 ![brew doctor](../resources/brew检查.png)
 - [解决方法](https://docs.brew.sh/Troubleshooting)：
 ![](../resources/brewdoctor.png)
-运行两次即可：
+运行两次：
 ```
 brew update
 ```
