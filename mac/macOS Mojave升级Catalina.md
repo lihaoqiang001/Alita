@@ -12,7 +12,7 @@
 #### 干嘛的不太清楚，反正暂时还没删除，对任何东西没影响，就保留了，希望像Windows一个月之后自动删除。
 
 ## 2. 重新安装CLT
-- Xcode一般不安装（除macOS和iOS应用开发外），但里面的`Command Line Tools`这个工具是非常有用的。从`Mojave`升级到`Catalina`之后之前的`Command Line Tools`会失效，git也不能用了。不管之前有没有安装过，这里建议都安装，自带了git、gcc等工具。
+Xcode一般不安装（除macOS和iOS应用开发外），但里面的`Command Line Tools`这个工具是非常有用的。从`Mojave`升级到`Catalina`之后之前的`Command Line Tools`会失效，git也不能用了。不管之前有没有安装过，这里建议都安装，自带了git、gcc等工具。
 - 之前没安装：
 ```
 xcode-select --install
@@ -30,9 +30,8 @@ https://developer.apple.com/download/more/
 3. 按照提示安装即可
 4. 更改developer tools的路径（这一步主要是针对安装过xcode的用户，卸载xcode后没有清理干净的后果）
 ```
-sudo xcode-select --switch /Library/Developer/
+sudo xcode-select --switch /Library/Developer/CommandLineTools/
 ```
-CommandLineTools/
 - 安装完成验证
 ```
 gcc --version
