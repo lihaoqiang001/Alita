@@ -57,7 +57,7 @@ brew cask install homebrew/cask-versions/java6
 ```
 ---
 ***遇到问题耐心解决，如果还没解决，那肯定是时间没花够***  
-- 9月21日心心念想，梦寐以求的Macbook 13.3 2019入手的第一天晚上，我拆机用了多半个小时，就是边拆边拍照，拆个盒子都要洗个手😂那种。在这之前，我平时抽空就提前“上手macOS”
+- 9月21日心心念想、梦寐以求的MacBook Pro (13-inch, 2019, Four Thunderbolt 3 ports)入手的第一天晚上，我拆机用了多半个小时，就是边拆边拍照，拆个盒子都要洗个手😂那种。在这之前，我平时抽空就提前“上手macOS”
 - 依稀还记得初一自己捣鼓的那台组装机，主板：华硕，CPU：英特尔奔腾E5400，硬盘512G HDD，金士顿2G，现在确实已经很卡了，尽管装了最新版的Windows v1903专业版。不过作为我的第一台电脑，好多东西都是在它上面学的，感谢下我老爸将它作为考了年级第一奖励台电脑送给我。
 - 9月21日那天晚上，emmm，是晚上，大家应该和我有同感，一到晚上一些站点就特别慢，比如`GitHub`之类的，但强迫症的我肯定得在第一时间部署好我的开发环境吧，毕竟大二那会儿我快成专业的运维了～～同学电脑有毛病就找我，开发环境（Java/Android/Python/Node～）有问题还是找我。所以就先装Git、JDK、Maven吧。
 - Git简单，现在macOS 虽然不自带Git，但是安装Homebrew之前安装的Command Line Tools里面包括了Git、gcc等工具，很方便，也比较快（**前提是[切换了Homebrew的源](https://mirrors.tuna.tsinghua.edu.cn/help/homebrew/)**）
