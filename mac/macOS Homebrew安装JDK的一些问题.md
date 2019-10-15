@@ -1,12 +1,14 @@
 # macOS Homebrew安装JDK的一些问题
-#### [Homebrew](https://brew.sh/index_zh-cn)就不多做介绍了，开发人员肯定耳熟能详。这里推荐大家一篇：
-> 1. [用 Homebrew 带飞你的 Mac](https://segmentfault.com/a/1190000014541169)
-> 2. [我在 Mac 上都用什么](https://www.cnblogs.com/imzhizi/p/my-apps-on-mac.html)  
-
+***目录***  
 [JDK8~JDK10/OpenJDK/AdoptOpenJDK](#JDK8~JDK10/OpenJDK/AdoptOpenJDK)  
 [JDK12/JDK13/OracleJDK](#JDK12/JDK13/OracleJDK)  
 [JDK7/Zulu](#JDK7/Zulu)  
-[JDK6](#JDK6)
+[JDK6](#JDK6)  
+
+---
+#### [Homebrew](https://brew.sh/index_zh-cn)就不多做介绍了，开发人员肯定耳熟能详。这里推荐大家一篇：
+> 1. [用 Homebrew 带飞你的 Mac](https://segmentfault.com/a/1190000014541169)
+> 2. [我在 Mac 上都用什么](https://www.cnblogs.com/imzhizi/p/my-apps-on-mac.html)  
 
 自从`Oracle`接手JDK之后，更新变快了，之前的“旧版本”也不容易下载了。最近一段时间`Oracle`一直不安生, 搞出来一堆幺蛾子, 所以安装方式也一直在变, 之前的方法已经不能用了, 网上找各种办法都不好使，下面针对各个版本给出了不同建议, 安装结束后, 可输入```java -version```确认是否安装成功。
 
