@@ -63,7 +63,7 @@ management:
 ```
 1.除Spring外，其他中间件自行援引至相对应的Spring版本的包，比如Druid连接池比较挑Spring Boot版本
 
-2.由于升级后Redis驱动程序由 Jedis 变为 Lettuce，经过验证，目前线上Redis更适合用Jedis，所以引用Redis时：
+2.由于升级后Redis驱动程序由 Jedis 变为 Lettuce，经过验证，目前Redis更适合用Jedis，所以引用Redis时：
 <dependency>
     <groupId>org.springframework.boot</groupId>
     <artifactId>spring-boot-starter-data-redis</artifactId>
